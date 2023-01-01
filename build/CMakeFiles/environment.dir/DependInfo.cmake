@@ -4,15 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/raghav/code/sfnd/lidar_pcl_detection_cpp/src/environment.cpp" "/home/raghav/code/sfnd/lidar_pcl_detection_cpp/build/CMakeFiles/environment.dir/src/environment.cpp.o"
-  "/home/raghav/code/sfnd/lidar_pcl_detection_cpp/src/processPointClouds.cpp" "/home/raghav/code/sfnd/lidar_pcl_detection_cpp/build/CMakeFiles/environment.dir/src/processPointClouds.cpp.o"
-  "/home/raghav/code/sfnd/lidar_pcl_detection_cpp/src/render/render.cpp" "/home/raghav/code/sfnd/lidar_pcl_detection_cpp/build/CMakeFiles/environment.dir/src/render/render.cpp.o"
+  "/workspace/src/environment.cpp" "/workspace/build/CMakeFiles/environment.dir/src/environment.cpp.o"
+  "/workspace/src/processPointClouds.cpp" "/workspace/build/CMakeFiles/environment.dir/src/processPointClouds.cpp.o"
+  "/workspace/src/render/render.cpp" "/workspace/build/CMakeFiles/environment.dir/src/render/render.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
   "DISABLE_LIBUSB_1_0"
+  "DISABLE_OPENNI"
+  "DISABLE_OPENNI2"
   "DISABLE_PCAP"
   "DISABLE_PNG"
   "qh_QHpointer"
@@ -26,8 +28,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/freetype2"
   "/usr/include/pcl-1.10"
   "/usr/include/eigen3"
-  "/usr/include/ni"
-  "/usr/include/openni2"
   )
 
 # Targets to which this target links.
